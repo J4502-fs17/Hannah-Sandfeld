@@ -3,3 +3,13 @@
 /*p {
   color: red;
 }*/
+img {
+  border:none;
+}
+
+
+#container {
+  width: 90%;
+  margin: 0 auto;
+
+}
