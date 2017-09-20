@@ -5,6 +5,8 @@
 }*/
 img {
   border:none;
+  max-width: 500px;
+  margin:auto;
 }
 
 p {
