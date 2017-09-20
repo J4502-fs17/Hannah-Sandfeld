@@ -7,9 +7,19 @@ img {
   border:none;
 }
 
+p {
+  color: black;
+  font-family: 'Abel', sans-serif;
+}
+
+h1 {
+  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+}
+
 body {
   background-color: #FCEFFF;
 }
+
 
 #container {
   width: 90%;
