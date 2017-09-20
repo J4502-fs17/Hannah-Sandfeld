@@ -6,12 +6,16 @@ img {
 
 p {
   color: black;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 
 h1 {
-  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 li{
