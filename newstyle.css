@@ -1,8 +1,5 @@
 /*styles go here*/
 
-/*p {
-  color: red;
-}*/
 img {
   border:none;
 }
@@ -10,10 +7,12 @@ img {
 p {
   color: black;
   font-family: 'Abel', sans-serif;
+  max-width: 500px;
+  margin:auto;
 }
 
 img{
-  max-width: 500px
+  max-width: 500px;
   margin:auto;
 }
 
@@ -26,7 +25,6 @@ h1 {
 body {
   background-color: #FFD4C0;
 }
-
 
 #container {
   width: 90%;
