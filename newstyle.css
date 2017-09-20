@@ -25,6 +25,7 @@ h1 {
 li{
   max-width: 500px;
   margin:auto;
+  list-style-type: none;
 }
 
 body {
