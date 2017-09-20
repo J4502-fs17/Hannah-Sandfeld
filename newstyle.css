@@ -5,13 +5,16 @@
 }*/
 img {
   border:none;
-  max-width: 500px;
-  margin:auto;
 }
 
 p {
   color: black;
   font-family: 'Abel', sans-serif;
+}
+
+img{
+  max-width: 500px
+  margin:auto;
 }
 
 h1 {
