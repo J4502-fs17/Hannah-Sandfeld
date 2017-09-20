@@ -7,19 +7,11 @@ img {
 p {
   color: black;
   font-family: 'Abel', sans-serif;
-  max-width: 500px;
-  margin:auto;
 }
 
-img{
-  max-width: 500px;
-  margin:auto;
-}
 
 h1 {
   font-family: 'Merriweather', Georgia, "Times New Roman", serif;
-  max-width: 500px;
-  margin:auto;
 }
 
 li{
