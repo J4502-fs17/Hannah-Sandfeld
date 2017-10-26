@@ -1,8 +1,19 @@
 
-
 .container {
 	display: flex;
-	flex-wrap: nowrap;/*The default value*/
-	flex-wrap: wrap;/*Allows items to wrap*/
-	flex-wrap: wrap-reverse;/*wraps items in the reverse order they are in html*/
+	flex-direction: column;
+}
+
+@media (min-width: 600px) {
+	.container {
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+
+@media (min-width: 800px) {
+
+	.item-1 {
+		margin-right: auto;
+	}
 }
