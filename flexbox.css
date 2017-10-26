@@ -5,3 +5,10 @@
 	flex-direction: column; /*runs top to bottom along the vertical axis*/
 	flex-direction: column-reverse;/*runs bottom to top along the vertical axis  */
 }
+
+.container {
+	display: flex;
+	flex-wrap: nowrap;/*The default value*/
+	flex-wrap: wrap;/*Allows items to wrap*/
+	flex-wrap: wrap-reverse;/*wraps items in the reverse order they are in html*/
+}
