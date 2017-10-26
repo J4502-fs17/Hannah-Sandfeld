@@ -1,19 +1,22 @@
-
-.container {
-	display: flex;
-	flex-direction: column;
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  /* This aligns items to the end line on main-axis */
+  justify-content: flex-end;
 }
 
-@media (min-width: 600px) {
-	.container {
-		flex-direction: row;
-		justify-content: center;
-	}
+/* Medium screens */
+@media all and (max-width: 800px) {
+  .navigation {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    justify-content: space-around;
+  }
 }
 
-@media (min-width: 800px) {
-
-	.item-1 {
-		margin-right: auto;
-	}
+/* Small screens */
+@media all and (max-width: 500px) {
+  .navigation {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
 }
