@@ -42,3 +42,21 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+@media all and (max-width:800px){
+  .navigation{
+    justify-content:space-around;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .navigation{
+    flex-direction: column;
+  }
+}
