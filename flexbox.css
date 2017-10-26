@@ -1,6 +1,6 @@
 
 
-.container {
+#container {
 	display: flex;
 	justify-content: flex-start;/*default value*/
 	justify-content: flex-end;/*moves items to end of main axis*/
