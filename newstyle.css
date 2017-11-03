@@ -5,7 +5,7 @@ img {
 p {
   color: black;
   font-family: 'Open Sans','Oswald', sans-serif;
-  background-color: none
+  background-color: none;
   max-width: 750px;
 }
 
@@ -85,7 +85,7 @@ body {
 @media screen and (min-width:600px) {
   article {
     display: grid;
-    grid-template: columns:1fr 1fr;
+    grid-template: column 1fr 1fr;
     grid-gap: 20px;
     grid-template-areas:
         "a b"
@@ -112,7 +112,7 @@ body {
 @media screen and (min-width:900px) {
   article {
     display: grid;
-    grid-template: columns:1fr 1fr 1fr;
+    grid-template: columns 1fr 1fr 1fr;
     grid-gap: 20px;
     grid-template-areas:
         "c a b"
